@@ -23,12 +23,12 @@ public class Main {
                 sum += 500;
                 System.out.print("К оплате: " + sum);
             } else {
-                System.out.print("Error");
+                System.out.print(">>> Error <<<");
             }
         } else if (sum < 0) {
-            System.out.print("Error");
+            System.out.print(">>> Error <<<");
         } else {
-            System.out.print("К оплат: " + sum);
+            System.out.print("К оплате: " + sum);
         }
     }
 }
